@@ -1,0 +1,16 @@
+{
+  "seed": 688,
+  "out_fold": "./models/equivariant_run",
+  "anthro_mat_path": "/home/Model_Train-3/Holographic-VAE/Normalized_Anthropometric_Data.csv",
+  "hrtf_SHT_mat_path": "/home/Model_Train-3/Holographic-VAE/Processed_ML/Measured/HUTUBS_matrix_measured.mat",
+  "shvec_path": "/home/Model_Train-3/Holographic-VAE/Processed_ML/Measured/Measured_Ynm.mat",
+  "freq_bin": 41,
+  "lr": 0.0005,
+  "num_epochs": 1000,
+  "batch_size": 1024,
+  "gpu": "0",
+  "num_workers": 4,
+  "equivariant": true,
+  "mul": 8,
+  "test_only": false
+}
